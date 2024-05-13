@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body{
+            background-image: url(../background/main.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p{
+            color: white;
+            padding-left: 50px;
+        }
+
+        h1{
+            color: #fffa79;
+            text-align: center;
+            margin-top: 100px;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color:red;
+            -webkit-text-stroke-width: 1px;
+        }
+        h1,h2,h4{
+            margin: 0px;
+            padding-top: 50px;
+            text-align: center;
+        }
+        #left{
+            margin-left: 270px;
+            margin-right: 260px;
+
+            
+        }
+        #left,#right,#center{
+            display: inline-block;
+            margin-top: 100px;
+            width: 350px;
+            border: solid;
+            border-radius: 32px;
+            
+        }
+        #center{
+            position: absolute;
+            top: 65px;
+            left: 590px;
+            
+
+        }
+        button{
+            margin-bottom: 25px;
+            height: 30px;
+            border-radius: 25px;
+            color: white;
+            border: none;
+            
+            
+
+        }
+
+        #leftop,#rigtop,#centop{
+            background-color: white;
+            height: 150px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+        #lefbot,#rigbot,#cenbot{
+            color: white;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #lefbot{
+            background-image: url(../background/left.jpg);
+            background-size: cover;
+        }
+        #rigbot{
+            background-image: url(../background/right.jpg);
+            background-size: cover;
+        }
+        #cenbot{
+            background-image: url(../background/center.jpg);
+            background-size: cover;
+            padding-bottom: 31px;
+        }
+        .price{
+            color: black;
+            padding-left: 0px;
+            text-align: center;
+            font-size: 18px;
+        }
+        #butlef{
+            background-color: hotpink;
+            border-color: hotpink;
+            margin-left: 140px;
+        }
+        #butrig{
+            background-color: #303c6a;
+            border-color: #303c6a ;
+            margin-left: 140px;
+        }
+        #butcen{
+
+            margin-left: 140px;
+            background-color: gold;
+            border-color: gold ;
+        }
+        #centop{
+            padding-top: 30.5px;
+            
+        }
+        #dol1{
+            color: hotpink;
+        }
+        #dol3{
+            color: gold;
+        }
+        #dol2{
+            color: #303c6a;
+        }
+
+
+
+    </style>
+</head>
+<body >
+    <h1 >Creative Pricing Table</h1>
+    <div id="left">
+        <div id="leftop">
+            <h2 id="dol1">$26</h2>
+            <p class="price">per month</p>
+            
+        </div>
+        <div id="lefbot">
+            <h2 >BASIC</h2>
+            <p>✔️ Data 100GB</p>
+            <p>✔️ Speed upto 40Mbps</p>
+            <p>✔️ Calls 100 calls Local/STD</p>
+            <p>❌ Amazon Prime 1 month</p>
+            <br>
+            <button id="butlef">CHOOSE</button>
+        </div>
+    </div>
+    <div id="right">
+        <div id="rigtop">
+            <h2 id="dol2">$35</h2>
+            <p class="price">per month</p>
+        </div>
+        <div id="rigbot">
+            <h2>ULTIMATE</h2>
+            <p>✔️ Data 500GB</p>
+            <p>✔️ Speed upto 1Gbps</p>
+            <p>✔️Unlimited Calls Local/STD</p>
+            <p>✔️ Amazon Prime and Hotstar 1 month</p>
+            <br>
+            <button id="butrig">CHOOSE</button>
+        </div>
+    </div>
+    <div id="center">
+        <div id="centop">
+            <h2 id="dol3">$45</h2>
+            <p class="price">per month</p>
+        </div>
+        <div id="cenbot">
+            <h2>PREMIUM</h2>
+            <p>✔️ Data 500GB</p>
+            <p>✔️ Speed upto 1Gbps</p>
+            <p>✔️ Unlimited Calls Local/STD</p>
+            <p>✔️ Amazon Prime, Netflix and Hotstar 1 month</p>
+            <button id="butcen">CHOOSE</button>
+            
+        </div>
+    </div>
+</body>
+</html>
